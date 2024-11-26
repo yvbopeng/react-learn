@@ -1,13 +1,13 @@
  
 
 import './App.css'
-import Markdown from './components/Markdown/index'
+import DrumMachine from './components/DrumMachine/index'
 
 
 
 
 function App() {
-  return <Markdown />
+  return <DrumMachine />
 }
 
 export default App
