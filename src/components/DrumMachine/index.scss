@@ -1,0 +1,60 @@
+#drum-machine {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #282c34;
+    color: white;
+    font-family: 'Arial', sans-serif;
+  
+    #display {
+      font-size: 2rem;
+      margin-bottom: 20px;
+      padding: 10px;
+      background-color: #444;
+      border-radius: 5px;
+      width: 300px;
+      text-align: center;
+      word-wrap: break-word;
+    }
+  
+    .drum-pad {
+      background-color: #4caf50;
+      border: none;
+      margin: 5px;
+      padding: 10px;
+      width: 50px;
+      height: 50px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-size: 1.5rem;
+      color: white;
+      border-radius: 5px;
+      cursor: pointer;
+      transition: background-color 0.3s, transform 0.1s;
+  
+      &:hover {
+        background-color: #45a049;
+      }
+  
+      &:active {
+        transform: scale(0.95);
+      }
+  
+      &.playing {
+        background-color: #f44336;
+      }
+  
+      // Adding custom styles for the audio button ID text
+      &:focus {
+        outline: none;
+      }
+    }
+  
+    .clip {
+      display: none;
+    }
+  }
+  
