@@ -1,7 +1,7 @@
  
 
 import './App.css'
-import Markdown from './components/Markdown/Index'
+import Markdown from './components/Markdown/index'
 
 
 
