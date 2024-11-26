@@ -1,13 +1,13 @@
  
 
 import './App.css'
-import Quote from './components/Quote/Quote'
+import Markdown from './components/Markdown/Index'
 
 
 
 
 function App() {
-  return <Quote />
+  return <Markdown />
 }
 
 export default App

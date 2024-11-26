@@ -11,6 +11,9 @@ importers:
       js-flipper:
         specifier: ^0.269.0
         version: 0.269.0
+      marked:
+        specifier: ^15.0.2
+        version: 15.0.2
       react:
         specifier: ^18.3.1
         version: 18.3.1
@@ -1022,6 +1025,11 @@ packages:
 
   loose-envify@1.4.0:
     resolution: {integrity: sha512-lyuxPGr/Wfhrlem2CL/UcnUc1zcqKAImBDzukY7Y5F/yQiNdko6+fRLevlw1HgMySw7f611UIY408EtxRSoK3Q==}
+    hasBin: true
+
+  marked@15.0.2:
+    resolution: {integrity: sha512-85RUkoYKIVB21PbMKrnD6aCl9ws+XKEyhJNMbLn206NyD3jbBo7Ec7Wi4Jrsn4dV1a2ng7K/jfkmIN0DNoS41w==}
+    engines: {node: '>= 18'}
     hasBin: true
 
   micromatch@4.0.8:
@@ -2409,6 +2417,8 @@ snapshots:
   loose-envify@1.4.0:
     dependencies:
       js-tokens: 4.0.0
+
+  marked@15.0.2: {}
 
   micromatch@4.0.8:
     dependencies:
